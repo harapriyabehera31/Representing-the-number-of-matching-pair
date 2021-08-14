@@ -1,7 +1,5 @@
 import java.util.Arrays;
-
-public class maching_pair {
-
+public class matching_pair {
 	public static void main(String[] args)
 	{
 		int arr[]= {20,10,10,40,50,10,20,30,10,50,20};
@@ -13,19 +11,18 @@ public class maching_pair {
 			for(int j=0 ; j<arr.length ; j++)
 			{
 			 if(arr[i]==arr[j])	 
-				{
-					c++;
-				}
+			   {
+	        		c++;
+	   		   }
 			}
 			 if(c>1)
-	    		{
-    				pair+=(c/2) ;
-				}
-			      i+=c ;
-				c=0;
-			}while(i<arr.length);
+	    		 {
+    		            pair+=(c/2) ;
+			}
+		           i+=c ;
+		 	   c=0;
+		     }while(i<arr.length);
 		 
 			System.out.println("Total pair :"+pair);	
 	}	
-
 }
