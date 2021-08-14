@@ -1,7 +1,7 @@
 // # Representing-the-number-of-matching-pair
-import java.util.Arrays;
 
-public class maching_pair {
+import java.util.Arrays;
+public class matching_pair {
 
 	public static void main(String[] args)
 	{
