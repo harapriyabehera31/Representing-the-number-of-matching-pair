@@ -23,6 +23,6 @@ public class matching_pair {
 		 	   c=0;
 		     }while(i<arr.length);
 		 
-			System.out.println("Total pair :"+pair);	
+			System.out.println("Total Number Of Matching pair :"+pair);	
 	}	
 }
